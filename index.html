@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Socily</title>
+ <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <nav>
+  <div class="container">
+   <h2 class="logo">
+    Socily
+   </h2>
+   <div class="searchBar">
+    <i class="uil uil-search"></i>
+    <input type="search" name="" id="" placeholder="Search for creators, inspirations and projects">
+   </div>
+   <div class="create">
+    <button class="btn btn-primary" id="createPost" >Create Post</button>
+    <div class="profile-photo">
+     <img src="images/profile-8.jpg" alt="">
+    </div>
+   </div>
+  </div>
+ </nav>
+
+ <main>
+  <div class="container">
+   <!-- //////Start of left/////////////// -->
+   <div class="left">
+     <a class="profile">
+      <div class="profile-photo">
+       <img src="images/profile-8.jpg" alt="">
+      </div>
+      <div class="handle">
+       <h4>Allex Calley</h4>
+       <p class="text-muted">
+        @calleyalex
+       </p>
+      </div>
+     </a>
+     <!-- ////////////////////////////////SideBar//////////////////////////////// -->
+     <div class="sidebar">
+      <a href="index.html" class="menu-item active">
+       <span><i class="uil uil-home"></i></span><h4>Home</h4>
+      </a>
+ 
+      <a class="menu-item">
+       <span><i class="uil uil-compass"></i></span><h4>Explore</h4>
+      </a>
+ 
+      <a class="menu-item"  id="notifications">
+       <span><i class="uil uil-bell"> <small class="notifications-count">5+</small></i></span><h4>Notifications</h4>
+       <div class="notification-popup">
+        <div>
+         <div class="profile-photo">
+          <img src="images/profile-2.jpg" alt="">
+         </div>
+         <div class="notification-body">
+          <b>Keke Benjamin</b> accepted your request <small class="text-muted">1 HOUR AGO</small>
+         </div>
+        </div>
+        <div>
+         <div class="profile-photo">
+          <img src="images/profile-3.jpg" alt="">
+         </div>
+         <div class="notification-body">
+          <b>John Doe</b>commented on your post<small class="text-muted">2 HOUR AGO</small>
+         </div>
+        </div>
+        <div>
+         <div class="profile-photo">
+          <img src="images/profile-4.jpg" alt="">
+         </div>
+         <div class="notification-body">
+          <b>Enna Marcelio</b> sent you a post <small class="text-muted">8 HOUR AGO</small>
+         </div>
+        </div>
+        <div>
+         <div class="profile-photo">
+          <img src="images/profile-5.jpg" alt="">
+         </div>
+         <div class="notification-body">
+          <b>Mary Oppong</b> sent you a video <small class="text-muted">1 DAY AGO</small>
+         </div>
+        </div>
+        <div>
+         <div class="profile-photo">
+          <img src="images/profile-6.jpg" alt="">
+         </div>
+         <div class="notification-body">
+          <b>Daris Y. Lartey</b> messaged you <small class="text-muted">2 DAY AGO</small>
+         </div>
+        </div>
+        <div>
+         <div class="profile-photo">
+          <img src="images/profile-7.jpg" alt="">
+         </div>
+         <div class="notification-body">
+          <b>Daris Y. Lartey</b> messaged you <small class="text-muted">2 DAY AGO</small>
+         </div>
+        </div>
+      </div>
+      </a>
+ 
+      <a class="menu-item" id="messages-notifications">
+       <span><i class="uil uil-envelope-alt"><small class="notifications-count">5+</small></i></span><h4>Messages</h4>
+      </a>
+ 
+      <a class="menu-item">
+       <span><i class="uil uil-bookmark"></i></span><h4>Bookmarks</h4>
+      </a>
+ 
+      <a class="menu-item">
+       <span><i class="uil uil-chart-line"></i></span><h4>Analytics</h4>
+      </a>
+ 
+      <a class="menu-item" id="theme">
+       <span><i class="uil uil-palette"></i></span><h4>Theme</h4>
+      </a>
+ 
+      <a class="menu-item">
+       <span><i class="uil uil-setting"></i></span><h4>Settings</h4>
+      </a>
+     </div>
+     <!-- ////////////////////////////End of sidebaar//////////////////////////////////// -->
+     <button class="btn btn-primary">Create Post</button>
+   </div>
+   <!-- /////////////////////End of left/////////////////////// -->
+ 
+
+   <div class="middle">
+    <!-- /////////////////////Stories///////////////////////// -->
+    <div class="stories">
+     <div class="story"  id="1">
+      <div class="profile-photo">
+       <img src="images/profile-8.jpg" alt="">
+      </div>
+      <p class="name">Your Story</p>
+     </div>
+     <div class="story" id="2">
+      <div class="profile-photo">
+       <img src="images/profile-9.jpg" alt="">
+      </div>
+      <p class="name">Lilla James</p>
+     </div>
+     <div class="story" id="3">
+      <div class="profile-photo">
+       <img src="images/profile-10.jpg" alt="">
+      </div>
+      <p class="name">Winnie Hale</p>
+     </div>
+     <div class="story" id="4">
+      <div class="profile-photo">
+       <img src="images/profile-11.jpg" alt="">
+      </div>
+      <p class="name">Daniel Bale</p>
+     </div>
+     <div class="story" id="5">
+      <div class="profile-photo">
+       <img src="images/profile-12.jpg" alt="">
+      </div>
+      <p class="name">Jane Doe</p>
+     </div>
+     <div class="story" id="6">
+      <div class="profile-photo">
+       <img src="images/profile-13.jpg" alt="">
+      </div>
+      <p class="name">Tina White</p>
+     </div>
+    </div>
+    <hr style="border: 1px solid rgb(209, 206, 206);">
+    <!-- //////////////////////////End of Stories/////////////////////////////////// -->
+      <div class="story1" id="story1">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0">
+        <div class="idname">
+         <div class="profile-photo">
+          <img src="images/profile-8.jpg" alt="">
+         </div>
+         <p class="username">calleyalex</p>
+         <p>1 hr ago</p>
+        </div>
+      </div>
+      <div class="story2" id="story2">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0">
+        <div class="idname">
+         <div class="profile-photo">
+          <img src="images/profile-9.jpg" alt="">
+         </div>
+         <p class="username">lillajames</p>
+         <p>2 hr ago</p>
+        </div>
+      </div>
+      <div class="story3"id="story3">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0">
+        <div class="idname">
+         <div class="profile-photo">
+          <img src="images/profile-10.jpg" alt="">
+         </div>
+         <p class="username">hale_winnie</p>
+         <p>3 hr ago</p>
+        </div>
+      </div>
+      <div class="story4" id="story4">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0">
+        <div class="idname">
+         <div class="profile-photo">
+          <img src="images/profile-11.jpg" alt="">
+         </div>
+         <p class="username">danielBale</p>
+         <p>4 hr ago</p>
+        </div>
+      </div>
+      <div class="story5" id="story5">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0">
+        <div class="idname">
+         <div class="profile-photo">
+          <img src="images/profile-12.jpg" alt="">
+         </div>
+         <p class="username">janedoe</p>
+         <p>5 hr ago</p>
+        </div>
+      </div>
+      <div class="story6" id="story6">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0">
+        <div class="idname">
+         <div class="profile-photo">
+          <img src="images/profile-13.jpg" alt="">
+         </div>
+         <p class="username">tinewhite</p>
+         <p>6 hr ago</p>
+        </div>
+      </div>
+
+    <div id="overlay">
+
+    </div>
+    <!-- ///////////////////////End of individual stories//////////////////////////////////////// -->
+    
+    <!-- /////////////////////////////////////Feeds////////////////////////////////////// -->
+
+    <div class="feeds" id="feed-bookmark" style="display: none;">
+      
+    </div>
+
+    <div class="feeds" id="feeds">
+      <!-- //////////////////////////////Feed1///////////////////////////// -->
+      <div class="feed">
+        <div class="head">
+          <div class="user">
+            <div class="profile-photo">
+              <img src="images/profile-13.jpg" alt="">
+            </div>
+            <div class="info">
+              <h3>Lana Rose</h3>
+              <small>Dubai, 15 minutes ago</small>
+            </div>
+          </div>
+          <span class="edit"><i class="uil uil-ellipsis-h"></i></span>
+        </div>
+        <div class="photo">
+          <img src="images/feed-1.jpg" alt="">
+        </div>
+        <div class="action-button">
+          <div class="interaction-buttons">
+            <span><i class="fa-regular fa-heart heartIcon active"></i></span>
+            <span><i class="fa-regular fa-comment"></i></span>
+            <span><i class="uil uil-share-alt"></i></span>
+          </div>
+          <div class="bookmark">
+           <span><i class="fa-regular fa-bookmark bookmarks" id="0"></i></span>
+          </div>
+        </div>
+        <div class="liked-by">
+          <span><img src="images/profile-10.jpg" alt=""></span>
+          <span><img src="images/profile-4.jpg" alt=""></span>
+          <span><img src="images/profile-15.jpg" alt=""></span>
+          <p>Liked by <b>Ernest Achiever</b>and <b>232 others</b></p>
+        </div>
+        <div class="caption">
+          <p>An extraordinary life full of honour, glory and adventure.</p>
+        </div>
+        <div class="text-muted comments">
+          View all 105 comments
+        </div>
+      </div>
+      <!-- /////////////////End of feed1/////////////////////////// -->
+      <!-- //////////////////////////////Feed2///////////////////////////// -->
+      <div class="feed">
+        <div class="head">
+          <div class="user">
+            <div class="profile-photo">
+              <img src="images/profile-14.jpg" alt="">
+            </div>
+            <div class="info">
+              <h3>Emma Watson</h3>
+              <small>London, 25 minutes ago</small>
+            </div>
+          </div>
+          <span class="edit"><i class="uil uil-ellipsis-h"></i></span>
+        </div>
+        <div class="photo">
+          <img src="images/feed-2.jpg" alt="">
+        </div>
+        <div class="action-button">
+          <div class="interaction-buttons">
+            <span><i class="fa-regular fa-heart heartIcon"></i></span>
+            <span><i class="fa-regular fa-comment"></i></span>
+            <span><i class="uil uil-share-alt"></i></span>
+          </div>
+          <div class="bookmark">
+           <span><i class="fa-regular fa-bookmark bookmarks" id="1"></i></span>
+          </div>
+        </div>
+        <div class="liked-by">
+          <span><img src="images/profile-10.jpg" alt=""></span>
+          <span><img src="images/profile-4.jpg" alt=""></span>
+          <span><img src="images/profile-15.jpg" alt=""></span>
+          <p>Liked by <b>Ernest Achiever</b>and <b>232 others</b></p>
+        </div>
+        <div class="caption">
+          <p>An extraordinary life full of honour, glory and adventure.</p>
+        </div>
+        <div class="text-muted comments">
+          View all 105 comments
+        </div>
+      </div>
+      <!-- /////////////////End of feed2/////////////////////////// -->
+      <!-- //////////////////////////////Feed3///////////////////////////// -->
+      <div class="feed">
+        <div class="head">
+          <div class="user">
+            <div class="profile-photo">
+              <img src="images/profile-17.jpg" alt="">
+            </div>
+            <div class="info">
+              <h3>Shirley Smith</h3>
+              <small>Australia, 1 hour ago</small>
+            </div>
+          </div>
+          <span class="edit"><i class="uil uil-ellipsis-h"></i></span>
+        </div>
+        <div class="photo">
+          <img src="images/feed-3.jpg" alt="">
+        </div>
+        <div class="action-button">
+          <div class="interaction-buttons">
+            <span><i class="fa-regular fa-heart heartIcon"></i></span>
+            <span><i class="fa-regular fa-comment"></i></span>
+            <span><i class="uil uil-share-alt"></i></span>
+          </div>
+          <div class="bookmark">
+           <span><i class="fa-regular fa-bookmark bookmarks" id="2"></i></span>
+          </div>
+        </div>
+        <div class="liked-by">
+          <span><img src="images/profile-10.jpg" alt=""></span>
+          <span><img src="images/profile-4.jpg" alt=""></span>
+          <span><img src="images/profile-15.jpg" alt=""></span>
+          <p>Liked by <b>Ernest Achiever</b>and <b>232 others</b></p>
+        </div>
+        <div class="caption">
+          <p>An extraordinary life full of honour, glory and adventure.</p>
+        </div>
+        <div class="text-muted comments">
+          View all 105 comments
+        </div>
+      </div>
+      <!-- /////////////////End of feed3/////////////////////////// -->
+      <!-- //////////////////////////////Feed4///////////////////////////// -->
+      <div class="feed">
+        <div class="head">
+          <div class="user">
+            <div class="profile-photo">
+              <img src="images/profile-16.jpg" alt="">
+            </div>
+            <div class="info">
+              <h3>Mathew Anderson</h3>
+              <small>Texas, 1 hour ago</small>
+            </div>
+          </div>
+          <span class="edit"><i class="uil uil-ellipsis-h"></i></span>
+        </div>
+        <div class="photo">
+          <img src="images/feed-4.jpg" alt="">
+        </div>
+        <div class="action-button">
+          <div class="interaction-buttons">
+            <span><i class="fa-regular fa-heart heartIcon"></i></span>
+            <span><i class="fa-regular fa-comment"></i></span>
+            <span><i class="uil uil-share-alt"></i></span>
+          </div>
+          <div class="bookmark">
+           <span><i class="fa-regular fa-bookmark bookmarks" id="3"></i></span>
+          </div>
+        </div>
+        <div class="liked-by">
+          <span><img src="images/profile-10.jpg" alt=""></span>
+          <span><img src="images/profile-4.jpg" alt=""></span>
+          <span><img src="images/profile-15.jpg" alt=""></span>
+          <p>Liked by <b>Ernest Achiever</b>and <b>232 others</b></p>
+        </div>
+        <div class="caption">
+          <p>An extraordinary life full of honour, glory and adventure.</p>
+        </div>
+        <div class="text-muted comments">
+          View all 105 comments
+        </div>
+      </div>
+      <!-- /////////////////End of feed4/////////////////////////// -->
+      <!-- //////////////////////////////Feed5///////////////////////////// -->
+      <div class="feed">
+        <div class="head">
+          <div class="user">
+            <div class="profile-photo">
+              <img src="images/profile-15.jpg" alt="">
+            </div>
+            <div class="info">
+              <h3>Luke Sebastian Daniel</h3>
+              <small>Delhi, 2 hours ago</small>
+            </div>
+          </div>
+          <span class="edit"><i class="uil uil-ellipsis-h"></i></span>
+        </div>
+        <div class="photo">
+          <img src="images/feed-5.jpg" alt="">
+        </div>
+        <div class="action-button">
+          <div class="interaction-buttons">
+            <span><i class="fa-regular fa-heart heartIcon"></i></span>
+            <span><i class="fa-regular fa-comment"></i></span>
+            <span><i class="uil uil-share-alt"></i></span>
+          </div>
+          <div class="bookmark">
+           <span><i class="fa-regular fa-bookmark bookmarks" id="4"></i></span>
+          </div>
+        </div>
+        <div class="liked-by">
+          <span><img src="images/profile-10.jpg" alt=""></span>
+          <span><img src="images/profile-4.jpg" alt=""></span>
+          <span><img src="images/profile-15.jpg" alt=""></span>
+          <p>Liked by <b>Ernest Achiever</b>and <b>232 others</b></p>
+        </div>
+        <div class="caption">
+          <p>An extraordinary life full of honour, glory and adventure.</p>
+        </div>
+        <div class="text-muted comments">
+          View all 105 comments
+        </div>
+      </div>
+      <!-- /////////////////End of feed5/////////////////////////// -->
+      <!-- //////////////////////////////Feed6///////////////////////////// -->
+      <div class="feed">
+        <div class="head">
+          <div class="user">
+            <div class="profile-photo">
+              <img src="images/profile-18.jpg" alt="">
+            </div>
+            <div class="info">
+              <h3>Jack Carleen</h3>
+              <small>NYC, 2 hours ago</small>
+            </div>
+          </div>
+          <span class="edit"><i class="uil uil-ellipsis-h"></i></span>
+        </div>
+        <div class="photo">
+          <img src="images/feed-6.jpg" alt="">
+        </div>
+        <div class="action-button">
+          <div class="interaction-buttons">
+            <span><i class="fa-regular fa-heart heartIcon"></i></span>
+            <span><i class="fa-regular fa-comment"></i></span>
+            <span><i class="uil uil-share-alt"></i></span>
+          </div>
+          <div class="bookmark">
+           <span><i class="fa-regular fa-bookmark bookmarks" id="5"></i></span>
+          </div>
+        </div>
+        <div class="liked-by">
+          <span><img src="images/profile-10.jpg" alt=""></span>
+          <span><img src="images/profile-4.jpg" alt=""></span>
+          <span><img src="images/profile-15.jpg" alt=""></span>
+          <p>Liked by <b>Ernest Achiever</b>and <b>232 others</b></p>
+        </div>
+        <div class="caption">
+          <p>An extraordinary life full of honour, glory and adventure.</p>
+        </div>
+        <div class="text-muted comments">
+          View all 105 comments
+        </div>
+      </div>
+      <!-- /////////////////End of feed6/////////////////////////// -->
+      <!-- //////////////////////////////Feed7///////////////////////////// -->
+      <div class="feed">
+        <div class="head">
+          <div class="user">
+            <div class="profile-photo">
+              <img src="images/profile-19.jpg" alt="">
+            </div>
+            <div class="info">
+              <h3>Lilly Heard</h3>
+              <small>Madrid, 3 hours ago</small>
+            </div>
+          </div>
+          <span class="edit"><i class="uil uil-ellipsis-h"></i></span>
+        </div>
+        <div class="photo">
+          <img src="images/feed-7.jpg" alt="">
+        </div>
+        <div class="action-button">
+          <div class="interaction-buttons">
+            <span><i class="fa-regular fa-heart heartIcon"></i></span>
+            <span><i class="fa-regular fa-comment"></i></span>
+            <span><i class="uil uil-share-alt"></i></span>
+          </div>
+          <div class="bookmark">
+           <span><i class="fa-regular fa-bookmark bookmarks" id="6"></i></span>
+          </div>
+        </div>
+        <div class="liked-by">
+          <span><img src="images/profile-10.jpg" alt=""></span>
+          <span><img src="images/profile-4.jpg" alt=""></span>
+          <span><img src="images/profile-15.jpg" alt=""></span>
+          <p>Liked by <b>Ernest Achiever</b>and <b>232 others</b></p>
+        </div>
+        <div class="caption">
+          <p>An extraordinary life full of honour, glory and adventure.</p>
+        </div>
+        <div class="text-muted comments">
+          View all 105 comments
+        </div>
+      </div>
+      <!-- /////////////////End of feed7/////////////////////////// -->
+
+    </div>
+      <!-- /////////////////////End of feeds////////////////////////// -->
+   </div>
+
+   <!-- ////////////////////////////End of Middle//////////////////////////////////// -->
+
+   <div class="right">
+     <div class="messages" id="messages">
+      <div class="heading">
+        <h4>Messages</h4>
+        <i class="uil uil-edit"></i>
+      </div>
+      <div class="searchBar">
+        <i class="uil uil-search"></i>
+        <input type="search" name="" id="message-search" placeholder="Search Messages">
+      </div>
+      <div class="category">
+        <h6 class="active">Primary</h6>
+        <h6>General</h6>
+        <h6 class="message-requests">Requests(2)</h6>
+      </div>
+      <div class="message">
+        <div class="profile-photo">
+          <img src="images/profile-17.jpg" alt="">
+        </div>
+        <div class="message-body">
+          <h5>Edem Quist</h5>
+          <p class="text-muted">Just woke up bruh 😉</p>
+        </div>
+      </div>
+      <div class="message" >
+        <div class="profile-photo">
+          <img src="images/profile-5.jpg" alt="">
+        </div>
+        <div class="message-body">
+          <h5>Daniel Jackson</h5>
+          <p class="text-bold">2 new messages</p>
+        </div>
+      </div>
+      <div class="message">
+        <div class="profile-photo">
+          <img src="images/profile-12.jpg" alt="">
+          <div class="active"></div>
+        </div>
+        <div class="message-body">
+          <h5>Jane Doe</h5>
+          <p class="text-muted">ok 👍</p>
+        </div>
+      </div>
+      <div class="message">
+        <div class="profile-photo">
+          <img src="images/profile-7.jpg" alt="">
+        </div>
+        <div class="message-body">
+          <h5>Julliet Makerey</h5>
+          <p class="text-muted">lol u right 🤣</p>
+        </div>
+      </div>
+      <div class="message">
+        <div class="profile-photo">
+          <img src="images/profile-15.jpg" alt="">
+        </div>
+        <div class="message-body">
+          <h5>Adam Groff</h5>
+          <p class="text-muted">Birthday tomorrow !! 😁</p>
+        </div>
+      </div>
+      <div class="message">
+        <div class="profile-photo">
+          <img src="images/profile-4.jpg" alt="">
+          <div class="active"></div>
+        </div>
+        <div class="message-body">
+          <h5>Franca Delehiya</h5>
+          <p class="text-muted">Recieved Bro 👍</p>
+        </div>
+      </div>
+     </div>
+     <!-- //////////////////////End of messages/////////////////// -->
+
+     <div class="friend-requests">
+      <h4>Requests</h4>
+      <div class="request">
+        <div class="info">
+          <div class="profile-photo">
+            <img src="images/profile-13.jpg" alt="">
+          </div>
+          <div>
+            <h5>Hajia Bintu</h5>
+            <p class="text-muted">
+              5 mutual friends
+            </p>
+          </div>
+        </div>
+        <div class="action">
+          <button class="btn btn-primary">Accept</button>
+          <button class="btn">Decline</button>
+        </div>
+      </div>
+      <div class="request">
+        <div class="info">
+          <div class="profile-photo">
+            <img src="images/profile-13.jpg" alt="">
+          </div>
+          <div>
+            <h5>Joa Suarez</h5>
+            <p class="text-muted">
+              8 mutual friends
+            </p>
+          </div>
+        </div>
+        <div class="action">
+          <button class="btn btn-primary">Accept</button>
+          <button class="btn">Decline</button>
+        </div>
+      </div>
+      <div class="request">
+        <div class="info">
+          <div class="profile-photo">
+            <img src="images/profile-13.jpg" alt="">
+          </div>
+          <div>
+            <h5>Isa Bella Lopez</h5>
+            <p class="text-muted">
+              10 mutual friends
+            </p>
+          </div>
+        </div>
+        <div class="action">
+          <button class="btn btn-primary">Accept</button>
+          <button class="btn">Decline</button>
+        </div>
+      </div>
+      <div class="request">
+        <div class="info">
+          <div class="profile-photo">
+            <img src="images/profile-13.jpg" alt="">
+          </div>
+          <div>
+            <h5>Samuel Naschs</h5>
+            <p class="text-muted">
+              4 mutual friends
+            </p>
+          </div>
+        </div>
+        <div class="action">
+          <button class="btn btn-primary">Accept</button>
+          <button class="btn">Decline</button>
+        </div>
+      </div>
+     </div>
+   </div>
+
+   <div class="create-post" id="create-post">
+    <button data-close-button class="close-btn" id="close-btn">&times;</button>
+    <div>
+      <label for="fname">Give Your ImageUrl</label>
+      <input type="text" id="fname" name="firstname" placeholder="ImageUrl...">
+
+       <small style="margin: auto; color: var(--color-grey);">or</small>
+       <label for="">Upload the Image</label>
+       <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" style="margin: 0.7rem 4rem;">
+  
+      <label for="lname">Caption</label>
+      <input type="text" id="lname" name="lastname" placeholder="Caption...">
+
+      <button id="create-post-handler">Create Post</button>
+    </div>
+   </div>
+  
+ </div>
+</main>
+
+<div class="customize-theme">
+  <div class="card">
+    <h2>Customize your view</h2>
+    <p>Manage your font size, color and background</p>
+
+    <!-- //////////////font size////////////////// -->
+
+    <div class="font-size">
+      <h4>Font Size</h4>
+      <div>
+        <h6>Aa</h6>
+        <div class="choose-size">
+          <span class="font-size-1 active"></span>
+          <span class="font-size-2"></span>
+          <span class="font-size-3"></span>
+          <span class="font-size-4"></span>
+          <span class="font-size-5"></span>
+        </div>
+        <h3>Aa</h3>
+      </div>
+    </div>
+
+    <!-- //////////////////////////Primary Colors//////////////// -->
+
+    <div class="color">
+      <h4>Color</h4>
+      <div class="choose-color">
+        <span class="color-1 active"></span>
+        <span class="color-2"></span>
+        <span class="color-3"></span>
+        <span class="color-4"></span>
+        <span class="color-5"></span>
+      </div>
+    </div>
+
+    <!-- /////////////////////////////////BackGround Color//////////////////// -->
+
+    <div class="background">
+      <h4>Background</h4>
+      <div class="choose-bg">
+        <div class="bg-1">
+          <span></span>
+          <h5 for="bg-1">Light</h5>
+        </div>
+        <div class="bg-2">
+          <span></span>
+          <h5>Dim</h5>
+        </div>
+        <div class="bg-3">
+          <span></span>
+          <h5 for="bg-3">Lights-out</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+ <script src="https://kit.fontawesome.com/f25e7dda40.js" crossorigin="anonymous"></script>
+ <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+ <script src="app.js"></script>
+</body>
+</html>
